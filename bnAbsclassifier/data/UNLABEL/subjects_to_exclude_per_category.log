@@ -1,0 +1,1794 @@
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}
+INFO:root:Keeping 2 subjects per category out as control: 
+{
+    "HIV Broad Neutralizing": {
+        "700010333": [
+            "SRR7717557",
+            "SRR7717712",
+            "SRR7717875"
+        ],
+        "703010619": [
+            "SRR7717554",
+            "SRR7717757",
+            "SRR7717938"
+        ]
+    },
+    "HIV Negative": {
+        "700010189": [
+            "SRR7717548",
+            "SRR7717746",
+            "SRR7718022"
+        ],
+        "704010146": [
+            "SRR7717547",
+            "SRR7717588",
+            "SRR7717729"
+        ]
+    },
+    "HIV Non Neutralizing": {
+        "704010453": [
+            "SRR7717529",
+            "SRR7717553",
+            "SRR7718025"
+        ],
+        "705010614": [
+            "SRR7717525",
+            "SRR7717676",
+            "SRR7717916"
+        ]
+    }
+}

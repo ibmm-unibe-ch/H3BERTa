@@ -1,0 +1,18 @@
+Processing: HIV_BNABS
+All data in HIV_BNABS.tsv:
+4315749 HIV_BNABS.tsv
+After keeping unique cdrh3 in HIV_BNABS.tsv:
+486363 HIV_BNABS_noredundancyh3.tsv
+----------------------------------------------------------------
+Processing: HIV_NON
+All data in HIV_NON.tsv:
+5197397 HIV_NON.tsv
+After keeping unique cdrh3 in HIV_NON.tsv:
+651470 HIV_NON_noredundancyh3.tsv
+----------------------------------------------------------------
+Processing: HIV_NEG
+All data in HIV_NEG.tsv:
+4561394 HIV_NEG.tsv
+After keeping unique cdrh3 in HIV_NEG.tsv:
+608960 HIV_NEG_noredundancyh3.tsv
+----------------------------------------------------------------
