@@ -9,7 +9,7 @@ Some different data pipelines have been tested:
 - SUB-PIPELINE3: all isotypes with all the Bsources
 - SUB-PIPELINE4: all isotypes with Unsorted B cells
 
-In this repository we report the pipeline described in the paper: - SUB-PIPELINE2: only IgG and IgA with Unsorted B cells
+In this repository we report the pipeline described in the paper: (SUB-PIPELINE1) only IgG and IgA with all the Bsources
 ## 1. FOR EACH SUB-PIPELINE:
 
 **Main folder** : `./SUB-PIPELINE.../`
