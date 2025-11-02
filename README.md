@@ -5,6 +5,7 @@
 
 
 Zenodo record (DOI): `10.5281/zenodo.17505849`
+The H3BERTa model weights are also available in a Hugging Face model [repository]([url](https://huggingface.co/Chrode/H3BERTa)).
 
 
 This repository contains the code, pretrained models, and datasets used in the study:
