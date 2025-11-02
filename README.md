@@ -1,4 +1,5 @@
 # H3BERTa: A CDR-H3 specific language model for antibody repertoire analysis
+10.5281/zenodo.17505849
 
 This repository contains the code, pretrained models, and datasets used in the study:
 
