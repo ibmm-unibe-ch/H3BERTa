@@ -3,9 +3,26 @@
   <img src="https://github.com/user-attachments/assets/c839ba2c-5958-4f2d-ad73-217839903dd1" width="500">
 </p>
 
+<div align="center">
 
-Zenodo record (DOI): [10.5281/zenodo.17505848](https://zenodo.org/records/17505849).  
-The H3BERTa model weights are also available in a Hugging Face model [repository](https://huggingface.co/Chrode/H3BERTa).
+  <strong>Pre-print</strong>  
+  <a href="https://www.biorxiv.org/content/10.1101/2025.11.03.686198v1">
+    <img src="http://img.shields.io/badge/DOI-10.1101/2025.11.03.686198v1-F28C28.svg" />
+  </a>
+
+  <strong>Zenodo</strong>  
+  <a href="https://zenodo.org/records/17505849">
+    <img src="http://img.shields.io/badge/DOI-10.5281/zenodo.17505848-blue.svg" />
+  </a>
+
+  <strong>The H3BERTa model weights are also available here:</strong>   
+    <a href="https://huggingface.co/Chrode/H3BERTa">
+    <img src="http://img.shields.io/badge/Hugginface-Chrode/H3BERTa-FFD21E.svg" />
+  </a>
+
+</div>
+
+
 
 
 This repository contains the code, pretrained models, and datasets used in the study:
