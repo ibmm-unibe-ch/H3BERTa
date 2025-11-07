@@ -127,7 +127,7 @@ mlm = pipeline(
 )
 
 # Example: predict missing residue
-seq = "CARDRS[MASK]GGYFDYW".replace("[MASK]", tok.mask_token)
+seq = "ARDRS[MASK]GGYFDY".replace("[MASK]", tok.mask_token)
 preds = mlm(seq, top_k=10)
 
 for p in preds:
