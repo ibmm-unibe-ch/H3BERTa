@@ -2,7 +2,7 @@
 
 ## 0. RAW UNPAIRED
 
-We collected all **B-cell** sequences from **healthy donor datasets** available in the [OAS repository](https://opig.stats.ox.ac.uk/webapps/oas/)and loaded them into a local **SQLite3 database**. 
+We collected all **B-cell** sequences from **healthy donor datasets** available in the [OAS repository](https://opig.stats.ox.ac.uk/webapps/oas/) and loaded them into a local **SQLite3 database**. 
 
 The OAS local database is split into **part1** and **part2** due to size constraints, resulting in two SQLite databases:  
 - `OAS_heavy_part1.db`  
