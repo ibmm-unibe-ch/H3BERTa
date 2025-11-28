@@ -31,7 +31,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForMaskedLM.from_pretrained(model_name)
 
 # Protein sequence
-protein_sequence = "MKTIIALSYIFCLVFA"
+protein_sequence = "ARDGLGEVAPDYRYGIDV"
 
 # Calculate PPPL
 pppl = calculate_pppl(model, tokenizer, protein_sequence)
