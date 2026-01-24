@@ -1,5 +1,10 @@
 # Dataset Creation
 
+The final dataset, after all preprocessing steps, is publicly available on Zenodo:
+<a href="https://zenodo.org/records/17505849">
+<img src="http://img.shields.io/badge/DOI-10.5281/zenodo.17505848-blue.svg" />
+</a>
+
 ## 0. RAW UNPAIRED
 
 We collected all **B-cell** sequences from **healthy donor datasets** available in the [OAS repository](https://opig.stats.ox.ac.uk/webapps/oas/) and loaded them into a local **SQLite3 database**. 
