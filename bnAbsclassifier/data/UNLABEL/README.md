@@ -1,2 +1,2 @@
-Due to GitHub memory limitations, the data have been uploaded to Zotero. 
-They can also be reproduced locally by following the numerical order of the code files.
+They can also be reproduced locally by following the numerical order of the code files, after downloading the required data files from the following work:
+“[Broadly neutralizing antibody precursor B cells revealed by germline-targeting immunogen](https://www.nature.com/articles/s41590-019-0581-0)”, Nature (2019),  as illustrated in the Jupyter notebook [0_EDA&data_prep.ipynb](0_EDA&data_prep.ipynb)
