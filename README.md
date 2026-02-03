@@ -43,13 +43,15 @@ H3BERTa/
 └─ README.md         # Project description
 ```
 
-This repository contains the code, configuration files, datasets, and analyses associated with the H3BERTa paper.
+This repository contains the code, configuration files, datasets, and analyses associated with the H3BERTa paper. Reproducibility information for each individual dataset is stored in the `/data` subfolder of each model.
 Large artifacts (datasets, trained weights, etc.) are stored on Zenodo and mirrored using the same directory structure as in this GitHub repo.
 
   <strong>Zenodo</strong>  
   <a href="https://zenodo.org/records/17505849">
     <img src="http://img.shields.io/badge/DOI-10.5281/zenodo.17505848-blue.svg" />
   </a>
+
+  
 ---
 
 ## H3BERTa Model Overview
