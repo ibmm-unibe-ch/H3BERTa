@@ -7,7 +7,7 @@ The final dataset, after all preprocessing steps, is publicly available on Zenod
 
 ## 0. RAW UNPAIRED
 
-We collected all **B-cell** sequences from **healthy donor datasets** available in the [OAS repository](https://opig.stats.ox.ac.uk/webapps/oas/) and loaded them into a local **SQLite3 database**. 
+We collected all **B-cell** sequences from **healthy donor datasets** available in the [OAS database](https://opig.stats.ox.ac.uk/webapps/oas/)[1] and loaded them into a local **SQLite3 database**. 
 
 The OAS local database is split into **part1** and **part2** due to size constraints, resulting in two SQLite databases:  
 - `OAS_heavy_part1.db`  
@@ -104,3 +104,6 @@ Outputs are reformatted into CSV files compatible with **Hugging Face** headers 
 
 Due to **GitHub storage limitations**, the dataset files are hosted separately on **Zotero**.  
 They can also be **recreated locally** once a copy of the OAS database is available, by executing the scripts in `/code` in the order described above.
+
+
+[1] Olsen, T. H., Boyles, F. & Deane, C. M. Observed Antibody Space: A diverse database of cleaned, annotated, and translated unpaired and paired antibody sequences. Protein Sci. 31, 141–146 (2022).
