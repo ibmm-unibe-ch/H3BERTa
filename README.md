@@ -32,18 +32,30 @@ This repository contains the code, pretrained models, and datasets used in the s
 > Institute of Biochemistry and Molecular Medicine, University of Bern (Switzerland)
 
 
-This repository contains the code, configuration files, datasets, and analyses associated with the H3BERTa paper.
-Large artifacts (datasets, trained weights, etc.) are stored on Zenodo and mirrored using the same directory structure as in this GitHub repo.
 
 ---
 
-## Overview
+## Repository and data overview
 ```
 H3BERTa/
 ├─ LM/               # H3BERTa language model training, data and analysis
 ├─ bnAbsclassifier/  # GAN-BERTa and SVM classifiers training and data for HIV-1 broadly neutralizing antibodies (bnAbs)
 └─ README.md         # Project description
 ```
+
+This repository contains the code, configuration files, datasets, and analyses associated with the H3BERTa paper.
+Large artifacts (datasets, trained weights, etc.) are stored on Zenodo and mirrored using the same directory structure as in this GitHub repo.
+
+  <strong>Zenodo</strong>  
+  <a href="https://zenodo.org/records/17505849">
+    <img src="http://img.shields.io/badge/DOI-10.5281/zenodo.17505848-blue.svg" />
+  </a>
+---
+
+## H3BERTa Model Overview
+
+H3BERTa is a transformer-based language model trained specifically on the **Complementarity-Determining Region 3 of the heavy chain (CDR-H3)**, the most diverse and functionally critical region of antibodies.  
+It captures the statistical regularities and biophysical constraints underlying natural antibody repertoires, enabling **embedding extraction**, **variant scoring**, and **context-aware mutation predictions**.
 
 **Model ID:** `Chrode/H3BERTa`  
 **Architecture:** RoBERTa-base (encoder-only, Masked Language Model)  
@@ -52,13 +64,6 @@ H3BERTa/
 **Max sequence length:** 100 amino acids  
 **Vocabulary:** 25 tokens (20 standard amino acids + special tokens)  
 **Mask token:** `[MASK]`
-
----
-
-## Model Overview
-
-H3BERTa is a transformer-based language model trained specifically on the **Complementarity-Determining Region 3 of the heavy chain (CDR-H3)**, the most diverse and functionally critical region of antibodies.  
-It captures the statistical regularities and biophysical constraints underlying natural antibody repertoires, enabling **embedding extraction**, **variant scoring**, and **context-aware mutation predictions**.
 
 ---
 
