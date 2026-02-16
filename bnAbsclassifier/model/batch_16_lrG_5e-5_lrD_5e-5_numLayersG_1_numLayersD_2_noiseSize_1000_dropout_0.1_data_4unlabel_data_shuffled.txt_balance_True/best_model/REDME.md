@@ -1,1 +1,1 @@
-
+Complete model directory is available on zenodo at: H3BERTA/bnAbsclassifier/GAN-H3BERTa/model/batch_16_lrG_5e-5_lrD_5e-5_numLayersG_1_numLayersD_2_noiseSize_1000_dropout_0.1_data_4unlabel_data_shuffled.txt_balance_True
