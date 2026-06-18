@@ -32,6 +32,10 @@
   header{border-bottom:1px solid var(--border);
     background:radial-gradient(120% 80% at 88% -10%, rgba(217,116,30,.07), transparent 60%);}
   .hero{padding:60px 0 48px}
+  .hero-head{display:flex; align-items:center; gap:32px; flex-wrap:wrap}
+  .hero-head .htext{flex:1 1 340px; min-width:0}
+  .hero-img{flex:0 0 auto; width:clamp(120px,24vw,230px); height:auto;
+    object-fit:contain; border-radius:12px}
   .kicker{font-family:var(--mono); font-size:12.5px; letter-spacing:.16em; text-transform:uppercase;
     color:var(--accent); font-weight:600; margin:0 0 16px}
   h1{font-family:var(--display); font-weight:700; font-size:clamp(44px,8vw,78px);
@@ -126,10 +130,17 @@
 
 <header>
   <div class="wrap hero">
-    <p class="kicker">Behind the paper</p>
-    <h1>H3BERTa</h1>
-    <p class="sub">Reading the immune system's most creative region &mdash; one antibody loop at a time.</p>
+    <div class="hero-head">
+      <div class="htext">
+        <p class="kicker">Behind the paper</p>
+        <h1>H3BERTa</h1>
+        <p class="sub">Reading the immune system's most creative region &mdash; one antibody loop at a time.</p>
+      </div>
+      <!-- Image next to the title. Put your file in img/ and update src/alt below. -->
+      <img class="hero-img" src="img/logo.png" alt="H3BERTa">
+    </div>
 
+    
     <p class="seqlab">CDR-H3 &middot; masked language modeling</p>
     <div class="seq" aria-label="A tokenized CDR-H3 sequence with one masked residue">
       <span class="tok">A</span><span class="tok">R</span><span class="tok">D</span>
