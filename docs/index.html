@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H3BERTa &middot; A CDR-H3 specific language model for antibody repertoire analysis</title>
+<meta name="description" content="H3BERTa is a protein language model trained on the antibody heavy-chain CDR-H3 loop, capturing immunological signal for repertoire analysis and broadly neutralizing antibody discovery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#191512;
+    --muted:#6b655d;
+    --paper:#ffffff;
+    --wash:#faf8f5;
+    --line:#e8e2da;
+    --accent:#d9741e;      /* lab orange, refined */
+    --teal:#2c8c99;
+    --indigo:#3b5bdb;
+    --green:#2f9e5e;
+    --maxw:880px;
+    --display:"Space Grotesk", system-ui, sans-serif;
+    --body:"Inter", system-ui, sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:17px; line-height:1.65;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px}
+
+  /* ---------- hero ---------- */
+  header{border-bottom:1px solid var(--line); background:
+     radial-gradient(120% 80% at 85% -10%, rgba(217,116,30,.06), transparent 60%);}
+  .hero{padding:64px 0 52px}
+  .kicker{font-family:var(--mono); font-size:12.5px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 18px}
+  h1{font-family:var(--display); font-weight:700; font-size:clamp(40px,7vw,72px);
+    line-height:.98; letter-spacing:-.02em; margin:0}
+  h1 .sub{display:block; font-size:clamp(17px,2.4vw,22px); font-weight:500;
+    color:var(--muted); letter-spacing:0; line-height:1.35; margin-top:18px; max-width:36ch}
+
+  /* signature: tokenized CDR-H3 with a masked residue */
+  .seqlab{font-family:var(--mono); font-size:12px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--muted); margin:40px 0 10px}
+  .seq{display:flex; flex-wrap:wrap; gap:6px; align-items:center}
+  .tok{font-family:var(--mono); font-weight:500; font-size:18px;
+    width:34px; height:40px; display:grid; place-items:center;
+    background:var(--wash); border:1px solid var(--line); border-radius:7px; color:var(--ink)}
+  .tok.mask{width:auto; padding:0 14px; background:rgba(59,91,219,.08);
+    border-color:rgba(59,91,219,.35); color:var(--indigo); font-weight:600; letter-spacing:.02em}
+  .seqcap{margin:14px 0 0; color:var(--muted); font-size:15px}
+  .seqcap b{color:var(--ink); font-weight:600}
+
+  .badges{display:flex; flex-wrap:wrap; gap:10px; margin-top:38px}
+  .badge{display:inline-flex; align-items:center; gap:8px; text-decoration:none;
+    font-size:14px; font-weight:500; color:var(--ink);
+    border:1px solid var(--line); border-radius:999px; padding:8px 15px; background:var(--paper);
+    transition:border-color .15s ease, transform .15s ease}
+  .badge:hover{border-color:var(--accent); transform:translateY(-1px)}
+  .badge .dot{width:8px; height:8px; border-radius:50%}
+  .badge.paper .dot{background:var(--accent)}
+  .badge.pre .dot{background:#bd2736}
+  .badge.zen .dot{background:var(--indigo)}
+  .badge.hf .dot{background:#e9b007}
+
+  .stats{display:flex; flex-wrap:wrap; gap:0; margin:46px 0 4px;
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+  .stat{flex:1 1 180px; padding:18px 22px 18px 0}
+  .stat:not(:last-child){border-right:1px solid var(--line); margin-right:22px}
+  .stat .n{font-family:var(--display); font-weight:600; font-size:26px; letter-spacing:-.01em}
+  .stat .l{font-size:13.5px; color:var(--muted); margin-top:3px}
+
+  /* ---------- sections ---------- */
+  main{padding:8px 0 0}
+  section{padding:46px 0; border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+  .eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--teal); font-weight:600; margin:0 0 14px}
+  h2{font-family:var(--display); font-weight:600; font-size:clamp(24px,3.6vw,32px);
+    line-height:1.12; letter-spacing:-.015em; margin:0 0 16px; max-width:24ch}
+  p{margin:0 0 18px}
+  p:last-child{margin-bottom:0}
+  strong{font-weight:600}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(217,116,30,.35)}
+  a:hover{border-bottom-color:var(--accent)}
+  ul{margin:0 0 18px; padding:0; list-style:none}
+  ul li{position:relative; padding-left:26px; margin-bottom:13px}
+  ul li::before{content:""; position:absolute; left:4px; top:11px;
+    width:7px; height:7px; border-radius:50%; background:var(--accent)}
+  ul li b{font-weight:600}
+
+  figure{margin:30px 0 6px}
+  figure img{width:100%; height:auto; display:block;
+    border:1px solid var(--line); border-radius:14px; background:var(--wash)}
+  figcaption{font-size:14px; color:var(--muted); margin-top:12px; line-height:1.5}
+
+  /* ---------- code ---------- */
+  .code{margin:22px 0; border:1px solid var(--line); border-radius:12px; overflow:hidden; background:#1c1a18}
+  .code .tab{display:flex; align-items:center; justify-content:space-between;
+    padding:9px 14px; background:#252220; border-bottom:1px solid #322e2a}
+  .code .tab span{font-family:var(--mono); font-size:12px; color:#b9b1a6; letter-spacing:.04em}
+  .code .tab em{font-family:var(--mono); font-style:normal; font-size:11px; color:#7e7a72}
+  pre{margin:0; padding:18px 16px; overflow-x:auto}
+  code{font-family:var(--mono); font-size:13.5px; line-height:1.7; color:#e9e3da}
+  .c-kw{color:#e0894a} .c-fn{color:#6fb6c4} .c-str{color:#9ec97f} .c-com{color:#7e7a72} .c-num{color:#c98fd0}
+
+  .codecap{font-size:15px; color:var(--muted); margin:0 0 4px}
+
+  /* ---------- footer ---------- */
+  footer{padding:48px 0 64px}
+  .links{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin:0 0 30px}
+  .lk{display:block; text-decoration:none; border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px; color:var(--ink); border-bottom:1px solid var(--line);
+    transition:border-color .15s ease, transform .15s ease}
+  .lk:hover{border-color:var(--accent); transform:translateY(-2px)}
+  .lk .t{font-family:var(--display); font-weight:600; font-size:16px; margin-bottom:3px}
+  .lk .d{font-size:13px; color:var(--muted); font-family:var(--mono)}
+  .meta{font-size:14px; color:var(--muted); line-height:1.6; border-top:1px solid var(--line); padding-top:24px}
+  .meta b{color:var(--ink); font-weight:600}
+
+  @media (max-width:600px){
+    body{font-size:16px}
+    .hero{padding:48px 0 40px}
+    .tok{width:30px; height:36px; font-size:16px}
+    .stat:not(:last-child){border-right:0; border-bottom:1px solid var(--line); margin-right:0}
+    .stat{flex-basis:100%; padding:14px 0}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .hero>*{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+    .hero .kicker{animation-delay:.02s} .hero h1{animation-delay:.06s}
+    .hero .seqlab{animation-delay:.12s} .hero .seq{animation-delay:.16s}
+    .hero .seqcap{animation-delay:.2s} .hero .badges{animation-delay:.26s}
+    .hero .stats{animation-delay:.3s}
+    @keyframes rise{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+  }
+  a:focus-visible,.badge:focus-visible,.lk:focus-visible{outline:2px solid var(--indigo); outline-offset:3px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hero">
+    <p class="kicker">Behind the paper</p>
+    <h1>H3BERTa
+      <span class="sub">Reading the immune system's most creative region &mdash; one antibody loop at a time.</span>
+    </h1>
+
+    <p class="seqlab">CDR-H3 loop &rarr; tokens</p>
+    <div class="seq" aria-label="A tokenized CDR-H3 sequence with one masked residue">
+      <span class="tok">A</span><span class="tok">R</span><span class="tok">D</span>
+      <span class="tok">R</span><span class="tok">S</span>
+      <span class="tok mask">[MASK]</span>
+      <span class="tok">G</span><span class="tok">G</span><span class="tok">Y</span>
+      <span class="tok">F</span><span class="tok">D</span><span class="tok">Y</span>
+    </div>
+    <p class="seqcap">A masked language model on antibody sequences: H3BERTa learns to predict a hidden residue from its context &mdash; and, in doing so, learns the <b>grammar of the CDR-H3</b>.</p>
+
+    <div class="badges">
+      <a class="badge paper" href="https://www.cell.com/patterns/fulltext/S2666-3899(26)00070-X"><span class="dot"></span>Patterns &middot; Cell Press</a>
+      <a class="badge pre" href="https://www.biorxiv.org/content/10.1101/2025.11.03.686198v1"><span class="dot"></span>bioRxiv preprint</a>
+      <a class="badge zen" href="https://zenodo.org/records/17505849"><span class="dot"></span>Zenodo</a>
+      <a class="badge hf" href="https://huggingface.co/Chrode/H3BERTa"><span class="dot"></span>Hugging Face</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="n">~18M</div><div class="l">CDR-H3 sequences (OAS, IgG/IgA)</div></div>
+      <div class="stat"><div class="n">~86M</div><div class="l">parameters (RoBERTa encoder)</div></div>
+      <div class="stat"><div class="n">CDR-H3 only</div><div class="l">no framework, no full variable region</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <p class="eyebrow">The question</p>
+    <h2>What if one tiny loop could tell the story of an immune response?</h2>
+    <p>Your body constantly writes an enormous library of antibodies. Modern sequencing can read <strong>millions of antibody sequences</strong> from a single donor &mdash; but the overwhelming majority bind nothing useful, and the rare, valuable ones are buried in the noise. Among the rarest are <strong>broadly neutralizing antibodies (bnAbs)</strong>: those that recognize conserved features across many viral strains, the kind we would love to find for pathogens like <strong>HIV-1</strong>.</p>
+    <p>Most machine-learning models read the <strong>entire variable region</strong> of an antibody. That sounds thorough, but it carries a cost: the variable region is mostly conserved framework scaffolding, which dilutes the functional signal, demands a lot of labeled data, and burns computation learning patterns that aren't where the action is.</p>
+    <p>We took the opposite bet &mdash; look only at the part of the antibody that actually does the improvising.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">The model</p>
+    <h2>A language model that reads only the CDR-H3</h2>
+    <p>The <strong>heavy-chain Complementarity-Determining Region 3 (CDR-H3)</strong> is the most variable segment of an antibody &mdash; the loop that contributes most to <strong>antigen specificity</strong> and carries the fingerprints of immune selection, clonal expansion, and somatic mutation. It is, in a sense, the creative core of the antibody.</p>
+    <p>So we built <strong>H3BERTa</strong>, a transformer that reads only the CDR-H3, the way an NLP model reads a sentence &mdash; except the "sentence" is a string of amino acids:</p>
+    <ul>
+      <li><b>Architecture:</b> a RoBERTa-style encoder (masked language model), ~86 million parameters.</li>
+      <li><b>Training data:</b> ~18 million CDR-H3 sequences from the Observed Antibody Space (OAS), curated to IgG and IgA isotypes from healthy, unvaccinated donors, and clustered to remove redundancy.</li>
+      <li><b>Tokenization:</b> amino-acid level, up to 100 residues per loop.</li>
+      <li><b>Training:</b> 113 epochs on a single NVIDIA A100, converging to a masked-LM loss of 1.58; its predicted substitutions scored a positive BLOSUM62 average (2.55), a sign it learns biochemically plausible residues rather than memorizing exact matches.</li>
+    </ul>
+    <figure>
+      <img src="overview.svg" alt="Two-panel schematic: (A) H3BERTa pre-training from the OAS database to embeddings; (B) semi-supervised bnAb classification with GAN-H3BERTa.">
+      <figcaption>The H3BERTa framework. <strong>(A)</strong> Pre-training on CDR-H3 loops from OAS via masked language modeling. <strong>(B)</strong> Semi-supervised bnAb classification with GAN-H3BERTa, where a generator and discriminator are trained jointly to separate broadly neutralizing from non-neutralizing antibodies.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <p class="eyebrow">The evidence</p>
+    <h2>Does a short loop really encode the biology? Three tests.</h2>
+    <p>To find out whether CDR-H3 alone is "enough," we compared H3BERTa to <strong>AntiBERTa</strong>, a model trained on the full variable region &mdash; and probed what each had learned.</p>
+    <ul>
+      <li><b>Genomic structure.</b> H3BERTa organized its embedding space primarily by <b>J-gene</b> usage &mdash; the segment that shapes the C-terminal end of CDR-H3 &mdash; whereas AntiBERTa clustered by <b>V-gene</b>. Each model sees the signal its input contains.</li>
+      <li><b>Maturation state.</b> With a simple linear discriminant analysis, both models cleanly separated <b>naive from memory</b> B-cell sequences &mdash; so CDR-H3 alone carries traces of B-cell maturation, not just germline identity.</li>
+      <li><b>Repertoire typicality.</b> Using <b>pseudo-perplexity</b> (how "expected" a sequence looks to the model), H3BERTa gave each repertoire a statistical signature.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">The signal</p>
+    <h2>Telling healthy and HIV-1 repertoires apart &mdash; in the tails</h2>
+    <p>We computed pseudo-perplexity across CDR-H3 repertoires from <strong>42 healthy donors</strong> and <strong>46 HIV-1 bnAb donors</strong>. At first glance the distributions looked almost identical. But comparing their <em>shapes</em> with Wasserstein distances and hierarchical clustering revealed a systematic separation &mdash; and the differences lived in the <strong>distributional tails</strong>, not the bulk (KS and Mann&ndash;Whitney tests, all <em>p</em> &lt; 0.001).</p>
+    <p>The tails were also biochemically interpretable: low-perplexity loops tended to be <strong>longer and tyrosine-rich</strong> (features linked to affinity maturation), while high-perplexity loops were <strong>shorter and leucine-rich</strong>, with systematic shifts in net charge. H3BERTa isn't just counting letters &mdash; it picks up the biophysics of immune history.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">The application</p>
+    <h2>From repertoires to single antibodies: finding bnAbs</h2>
+    <p>Repertoire-level signal is useful, but can the embeddings flag an individual <strong>broadly neutralizing antibody</strong>? We built a balanced, deliberately hard labeled set (bnAbs from the CATNAP HIV database; non-neutralizers padded with "hard negatives" &mdash; healthy-donor loops that look deceptively bnAb-like).</p>
+    <ul>
+      <li>A simple <b>linear SVM</b> on H3BERTa embeddings reached <b>93% accuracy</b> (macro-F1 0.92) on the test set &mdash; the representations are linearly separable and biologically rich.</li>
+      <li>For the messier reality of full repertoires, we built <b>GAN-H3BERTa</b>: a semi-supervised GAN-BERT framework with H3BERTa as backbone, learning from a few labels plus a large pool of unlabeled HIV repertoire sequences. It hit <b>85% test accuracy</b> (MCC 0.71, AUC 0.85) with high sensitivity for bnAbs (recall 0.95), tightened the embedding space, and cut false positives on whole repertoires &mdash; while still correctly flagging the experimentally validated bnAbs.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">Try it</p>
+    <h2>Run H3BERTa on your own CDR-H3 sequences</h2>
+    <p>The model is on the Hugging Face Hub as <a href="https://huggingface.co/Chrode/H3BERTa"><code style="font-family:var(--mono);font-size:.92em;color:var(--ink)">Chrode/H3BERTa</code></a>. Provide CDR-H3 loops as plain amino-acid strings (no leading <code style="font-family:var(--mono);color:var(--ink)">C</code> / trailing <code style="font-family:var(--mono);color:var(--ink)">W</code>, no separators).</p>
+
+    <p class="codecap">Extract per-sequence embeddings &mdash; for clustering, similarity search, or a downstream classifier:</p>
+    <div class="code">
+      <div class="tab"><span>embeddings.py</span><em>python</em></div>
+<pre><code><span class="c-kw">from</span> transformers <span class="c-kw">import</span> pipeline
+<span class="c-kw">import</span> torch, numpy <span class="c-kw">as</span> np
+
+feat = <span class="c-fn">pipeline</span>(
+    task=<span class="c-str">"feature-extraction"</span>,
+    model=<span class="c-str">"Chrode/H3BERTa"</span>,
+    tokenizer=<span class="c-str">"Chrode/H3BERTa"</span>,
+    device=<span class="c-num">0</span> <span class="c-kw">if</span> torch.cuda.<span class="c-fn">is_available</span>() <span class="c-kw">else</span> -<span class="c-num">1</span>,
+)
+
+seqs = [<span class="c-str">"ARMGAAREWDFQY"</span>, <span class="c-str">"ARDGLGEVAPDYRYGIDV"</span>]
+
+<span class="c-kw">with</span> torch.<span class="c-fn">no_grad</span>():
+    outs = <span class="c-fn">feat</span>(seqs)
+
+<span class="c-com"># mean pooling across tokens -> per-sequence embedding</span>
+embs = [np.<span class="c-fn">array</span>(o).<span class="c-fn">mean</span>(axis=<span class="c-num">0</span>) <span class="c-kw">for</span> o <span class="c-kw">in</span> outs]
+<span class="c-fn">print</span>(<span class="c-fn">len</span>(embs), embs[<span class="c-num">0</span>].shape)</code></pre>
+    </div>
+
+    <p class="codecap">Score mutations with masked-language modeling &mdash; the pseudo-likelihood of a residue in context:</p>
+    <div class="code">
+      <div class="tab"><span>mutation_scoring.py</span><em>python</em></div>
+<pre><code><span class="c-kw">from</span> transformers <span class="c-kw">import</span> pipeline, AutoTokenizer
+
+model_id = <span class="c-str">"Chrode/H3BERTa"</span>
+tok = AutoTokenizer.<span class="c-fn">from_pretrained</span>(model_id)
+
+mlm = <span class="c-fn">pipeline</span>(task=<span class="c-str">"fill-mask"</span>, model=model_id, tokenizer=tok, device=<span class="c-num">0</span>)
+
+seq = <span class="c-str">"ARDRS[MASK]GGYFDY"</span>.<span class="c-fn">replace</span>(<span class="c-str">"[MASK]"</span>, tok.mask_token)
+<span class="c-kw">for</span> p <span class="c-kw">in</span> <span class="c-fn">mlm</span>(seq, top_k=<span class="c-num">10</span>):
+    <span class="c-fn">print</span>(p[<span class="c-str">"token_str"</span>], <span class="c-fn">round</span>(p[<span class="c-str">"score"</span>], <span class="c-num">4</span>))</code></pre>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">What's next</p>
+    <h2>You don't always need the whole antibody to read the immune system</h2>
+    <p>H3BERTa makes a simple but useful point: a focused model on the hypervariable CDR-H3 captures germline structure, maturation state, and subtle disease-associated signatures &mdash; and stays light enough to run in <strong>data-scarce settings</strong>, where full-length sequences or abundant labels simply aren't available.</p>
+    <p>Next steps include testing H3BERTa across broader datasets and disease contexts, pushing toward direct prediction of <strong>antigen specificity and neutralization breadth</strong> from sequence, and sharpening the GAN-BERT framework to pull rare, therapeutically relevant antibodies out of large repertoires &mdash; toward a compact, practical tool for antibody discovery, vaccine design, and longitudinal immune monitoring.</p>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <div class="links">
+    <a class="lk" href="https://www.cell.com/patterns/fulltext/S2666-3899(26)00070-X"><div class="t">Read the paper</div><div class="d">Patterns &middot; Cell Press</div></a>
+    <a class="lk" href="https://www.biorxiv.org/content/10.1101/2025.11.03.686198v1"><div class="t">Preprint</div><div class="d">bioRxiv 2025.11.03.686198</div></a>
+    <a class="lk" href="https://github.com/ibmm-unibe-ch/H3BERTa"><div class="t">Code</div><div class="d">ibmm-unibe-ch/H3BERTa</div></a>
+    <a class="lk" href="https://huggingface.co/Chrode/H3BERTa"><div class="t">Model weights</div><div class="d">Chrode/H3BERTa</div></a>
+  </div>
+  <p class="meta"><b>Chiara Rodella &amp; Thomas Lemmin</b> &mdash; Institute of Biochemistry and Molecular Medicine, University of Bern.<br>
+  Supported by the Helmut Horten Stiftung young researcher grant and the Swiss National Science Foundation (PCEFP3 194606).<br>
+  Built on RoBERTa, the Observed Antibody Space (OAS), MMseqs2, the GAN-BERT framework, masked-LM pseudo-perplexity scoring, and the CATNAP HIV database; benchmarked against AntiBERTa.</p>
+</footer>
+
+</body>
+</html>
